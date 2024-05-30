@@ -1,0 +1,3 @@
+-DISSCORD = https://discord.com/invite/fszbjR4Kpu
+-Script Management = @ytnhatminh
+-Owner = @ytnhatminh
