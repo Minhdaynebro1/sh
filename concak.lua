@@ -15,18 +15,17 @@ local sitinkgui = sitinklib:Start({
 })
 local MainTab = sitinkgui:MakeTab("Main")
 
-local creditinfo = MainTab:Section({
+local Section1 = MainTab:Section({
     ["Title"] = "Credit / Info",
     ["Content"] = ""
 })
 
-local Credit1 = Section:Paragraph({
+local Credit1 = Section1:Paragraph({
     ["Title"] = "Admin Script",
     ["Content"] = "Name: Nhật Minh \n Age: 14 \n Vietnam"
 })
 
-
-local Farming0 = MainTab:Section({
+local Section2 = MainTab:Section({
     ["Title"] = "Auto Farm",
     ["Content"] = ""
 })
