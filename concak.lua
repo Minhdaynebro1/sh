@@ -207,14 +207,14 @@ local CW5 = CW:Slider({
     end
 })
 
-local Upgrade = ShopToggle:Section({
+local Upgrade = Shopts:Section({
     ["Title"] = "Shop Toggles",
     ["Content"] = ""
 })
 
-local Upgrade0 = ShopToggle:Seperator("「 Upgrades 」")
+local Upgrade0 = Shopts:Seperator("「 Upgrades 」")
 
-local Upgrade1 = ShopToggle:Toggle({
+local Upgrade1 = Shopts:Toggle({
 	["Title"]= "Maximmun Size",
 	["Content"] = "",
 	["Default"] = false,
@@ -223,7 +223,7 @@ local Upgrade1 = ShopToggle:Toggle({
 	end
 })
 
-local Upgrade2 = ShopToggle:Toggle({
+local Upgrade2 = Shopts:Toggle({
 	["Title"]= "Walk Speed",
 	["Content"] = "",
 	["Default"] = false,
@@ -232,7 +232,7 @@ local Upgrade2 = ShopToggle:Toggle({
 	end
 })
 
-local Upgrade3 = ShopToggle:Toggle({
+local Upgrade3 = Shopts:Toggle({
 	["Title"]= "Size Multiplier",
 	["Content"] = "",
 	["Default"] = false,
@@ -241,7 +241,7 @@ local Upgrade3 = ShopToggle:Toggle({
 	end
 })
 
-local Upgrade4 = ShopToggle:Toggle({
+local Upgrade4 = Shopts:Toggle({
 	["Title"]= "Eat Speed",
 	["Content"] = "",
 	["Default"] = false,
