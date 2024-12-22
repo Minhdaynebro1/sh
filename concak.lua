@@ -16,21 +16,11 @@ local sitinkgui = sitinklib:Start({
 local MainTab = sitinkgui:MakeTab("Main")
 
 local Section1 = MainTab:Section({
-    ["Title"] = "Credit / Info",
-    ["Content"] = ""
-})
-
-local Credit1 = Section1:Paragraph({
-    ["Title"] = "Admin Script",
-    ["Content"] = "Name: Nhật Minh \n Age: 14 \n Vietnam"
-})
-
-local Section2 = MainTab:Section({
     ["Title"] = "Auto Farm",
     ["Content"] = ""
 })
 
-local Farming1 = MainTab:Toggle({
+local Farming1 = Farming1:Toggle({
 	["Title"]= "Auto Grab",
 	["Content"] = "",
 	["Default"] = false,
@@ -39,7 +29,7 @@ local Farming1 = MainTab:Toggle({
 	end
 })
 
-local Farming2 = MainTab:Toggle({
+local Farming2 = Farming2:Toggle({
 	["Title"]= "Auto Eat",
 	["Content"] = "",
 	["Default"] = false,
@@ -48,7 +38,7 @@ local Farming2 = MainTab:Toggle({
 	end
 })
 
-local Farming3 = MainTab:Toggle({
+local Farming3 = Farming3:Toggle({
 	["Title"]= "Auto Sell",
 	["Content"] = "",
 	["Default"] = false,
@@ -57,7 +47,7 @@ local Farming3 = MainTab:Toggle({
 	end
 })
 
-local Farming4 = MainTab:Toggle({
+local Farming4 = Farming4:Toggle({
 	["Title"]= "Auto Throw",
 	["Content"] = "",
 	["Default"] = false,
