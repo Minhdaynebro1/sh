@@ -13,6 +13,7 @@ local sitinkgui = sitinklib:Start({
     ["Color"] = Color3.fromRGB(141,0,255,255),
     ["CloseCallBack"] = function() end
 })
+local MainTab = sitinkgui:MakeTab("Farming")
 local CreditTab = sitinkgui:MakeTab("Main")
 
 local Section = CreditTab:Section({
@@ -24,8 +25,6 @@ local Credit1 = Section:Paragraph({
     ["Title"] = "Admin Script",
     ["Content"] = "Name: Nhật Minh \n Age: 14 \n Vietnam"
 })
-
-local MainTab = sitinkgui:MakeTab("Farming")
 
 local Farming0 = MainTab:Section({
     ["Title"] = "Auto Farm",
