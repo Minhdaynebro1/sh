@@ -9,7 +9,7 @@ local sitinkgui = sitinklib:Start({
     ["Name Info"] = "World Sjw Hub",
     ["Name Player"] = "World Sjw Hub Community",
     ["Info Description"] = "discord.gg/psE8EUa9kg",
-    ["Tab Width"] = 140,
+    ["Tab Width"] = 180,
     ["Color"] = Color3.fromRGB(141,0,255,255),
     ["CloseCallBack"] = function() end
 })
@@ -207,14 +207,14 @@ local CW5 = CW:Slider({
     end
 })
 
-local Upgrade = MainTab:Section({
+local ShopToggle = MainTab:Section({
     ["Title"] = "Shop Toggles",
     ["Content"] = ""
 })
 
-local Upgrade0 = Upgrade:Seperator("「 Upgrades 」")
+local Upgrade0 = ShopToggle:Seperator("「 Upgrades 」")
 
-local Upgrade1 = Upgrade:Toggle({
+local Upgrade1 = ShopToggle:Toggle({
 	["Title"]= "Maximmun Size",
 	["Content"] = "",
 	["Default"] = false,
@@ -223,7 +223,7 @@ local Upgrade1 = Upgrade:Toggle({
 	end
 })
 
-local Upgrade2 = Upgrade:Toggle({
+local Upgrade2 = ShopToggle:Toggle({
 	["Title"]= "Walk Speed",
 	["Content"] = "",
 	["Default"] = false,
@@ -232,7 +232,7 @@ local Upgrade2 = Upgrade:Toggle({
 	end
 })
 
-local Upgrade3 = Upgrade:Toggle({
+local Upgrade3 = ShopToggle:Toggle({
 	["Title"]= "Size Multiplier",
 	["Content"] = "",
 	["Default"] = false,
@@ -241,11 +241,195 @@ local Upgrade3 = Upgrade:Toggle({
 	end
 })
 
-local Upgrade4 = Upgrade:Toggle({
+local Upgrade4 = ShopToggle:Toggle({
 	["Title"]= "Eat Speed",
 	["Content"] = "",
 	["Default"] = false,
 	["Callback"] = function(Value) 
 		print(Value)
 	end
+})
+
+local Events0 = ShopToggle:Seperator("「 Events 」")
+
+local Events1 = ShopToggle:Toggle({
+	["Title"]= "Low Gravity",
+	["Content"] = "",
+	["Default"] = false,
+	["Callback"] = function(Value) 
+		print(Value)
+	end
+})
+
+local Events2 = ShopToggle:Toggle({
+	["Title"]= "Money Rain",
+	["Content"] = "",
+	["Default"] = false,
+	["Callback"] = function(Value) 
+		print(Value)
+	end
+})
+
+local Events3 = ShopToggle:Toggle({
+	["Title"]= "Robot",
+	["Content"] = "",
+	["Default"] = false,
+	["Callback"] = function(Value) 
+		print(Value)
+	end
+})
+
+local Events4 = ShopToggle:Toggle({
+	["Title"]= "Nuke",
+	["Content"] = "",
+	["Default"] = false,
+	["Callback"] = function(Value) 
+		print(Value)
+	end
+})
+
+local Events5 = ShopToggle:Toggle({
+	["Title"]= "Skeletons",
+	["Content"] = "",
+	["Default"] = false,
+	["Callback"] = function(Value) 
+		print(Value)
+	end
+})
+
+local ShopButton = MainTab:Section({
+    ["Title"] = "Shop Button",
+    ["Content"] = ""
+})
+
+local UpgradeX0 = ShopButton:Seperator("「 Upgrades 」")
+
+local UpgradeX1 = ShopButton:Button({
+    ["Title"] = "Maximmun Size",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local UpgradeX2 = ShopButton:Button({
+    ["Title"] = "Walk Speed",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local UpgradeX3 = ShopButton:Button({
+    ["Title"] = "Size Multiplier",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local UpgradeX4 = ShopButton:Button({
+    ["Title"] = "Eat Speed",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local EventsX0 = ShopButton:Seperator("「 Events 」")
+
+local EventsX1 = ShopButton:Button({
+    ["Title"] = "Low Gravity",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local EventsX2 = ShopButton:Button({
+    ["Title"] = "Money Rain",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local EventsX3 = ShopButton:Button({
+    ["Title"] = "Robot",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local EventsX4 = ShopButton:Button({
+    ["Title"] = "Nuke",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local EventsX5 = ShopButton:Button({
+    ["Title"] = "Skeletons",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local Other = MainTab:Section({
+    ["Title"] = "Others",
+    ["Content"] = ""
+})
+
+local OtherX0 = Other:Seperator("「 Some Hacking Apps 」")
+
+local OtherX1 = Other:Toggle({
+	["Title"]= "Anti Afk #1",
+	["Content"] = "",
+	["Default"] = false,
+	["Callback"] = function(Value) 
+		print(Value)
+	end
+})
+
+local OtherX2 = Other:Button({
+    ["Title"] = "Anti Afk #2",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local OtherX3 = Other:Button({
+    ["Title"] = "Fps Boost",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local OtherX4 = Other:Button({
+    ["Title"] = "Rejoin",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local OtherX5 = Other:Button({
+    ["Title"] = "Hop Server",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
+})
+
+local OtherX6 = Other:Button({
+    ["Title"] = "Hop Server Low Player",
+    ["Content"] = "",
+    ["Callback"] = function()
+        print("Button Clicked!")
+    end
 })
