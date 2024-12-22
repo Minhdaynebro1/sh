@@ -13,8 +13,8 @@ local sitinkgui = sitinklib:Start({
     ["Color"] = Color3.fromRGB(141,0,255,255),
     ["CloseCallBack"] = function() end
 })
-local MainTab = sitinkgui:MakeTab("Farming")
 local CreditTab = sitinkgui:MakeTab("Main")
+local MainTab = sitinkgui:MakeTab("Farming")
 
 local Section = CreditTab:Section({
     ["Title"] = "Credit / Info",
