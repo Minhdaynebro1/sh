@@ -207,7 +207,7 @@ local CW5 = CW:Slider({
     end
 })
 
-local Upgrade = Shopts:Section({
+local Upgrade = MainTab:Section({
     ["Title"] = "Shop Toggles",
     ["Content"] = ""
 })
