@@ -212,9 +212,9 @@ local Upgrade = MainTab:Section({
     ["Content"] = ""
 })
 
-local Upgrade0 = Shopts:Seperator("「 Upgrades 」")
+local Upgrade0 = Upgrade:Seperator("「 Upgrades 」")
 
-local Upgrade1 = Shopts:Toggle({
+local Upgrade1 = Upgrade:Toggle({
 	["Title"]= "Maximmun Size",
 	["Content"] = "",
 	["Default"] = false,
@@ -223,7 +223,7 @@ local Upgrade1 = Shopts:Toggle({
 	end
 })
 
-local Upgrade2 = Shopts:Toggle({
+local Upgrade2 = Upgrade:Toggle({
 	["Title"]= "Walk Speed",
 	["Content"] = "",
 	["Default"] = false,
@@ -232,7 +232,7 @@ local Upgrade2 = Shopts:Toggle({
 	end
 })
 
-local Upgrade3 = Shopts:Toggle({
+local Upgrade3 = Upgrade:Toggle({
 	["Title"]= "Size Multiplier",
 	["Content"] = "",
 	["Default"] = false,
@@ -241,7 +241,7 @@ local Upgrade3 = Shopts:Toggle({
 	end
 })
 
-local Upgrade4 = Shopts:Toggle({
+local Upgrade4 = Upgrade:Toggle({
 	["Title"]= "Eat Speed",
 	["Content"] = "",
 	["Default"] = false,
