@@ -30,7 +30,7 @@ local Section2 = MainTab:Section({
     ["Content"] = ""
 })
 
-local Farming1 = Section:Toggle({
+local Farming1 = MainTab:Toggle({
 	["Title"]= "Auto Grab",
 	["Content"] = "",
 	["Default"] = false,
@@ -39,7 +39,7 @@ local Farming1 = Section:Toggle({
 	end
 })
 
-local Farming2 = Section:Toggle({
+local Farming2 = MainTab:Toggle({
 	["Title"]= "Auto Eat",
 	["Content"] = "",
 	["Default"] = false,
@@ -48,7 +48,7 @@ local Farming2 = Section:Toggle({
 	end
 })
 
-local Farming3 = Section:Toggle({
+local Farming3 = MainTab:Toggle({
 	["Title"]= "Auto Sell",
 	["Content"] = "",
 	["Default"] = false,
@@ -57,7 +57,7 @@ local Farming3 = Section:Toggle({
 	end
 })
 
-local Farming4 = Section:Toggle({
+local Farming4 = MainTab:Toggle({
 	["Title"]= "Auto Throw",
 	["Content"] = "",
 	["Default"] = false,
